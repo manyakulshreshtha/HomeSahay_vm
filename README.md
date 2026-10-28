@@ -17,10 +17,6 @@ This is the frontend prototype and backend API for HomeSahay, built for SIH 2026
 ---
 
 ## Project Overview
-The repository contains a combined build covering:
-- **Base Project (Person 1)**: Auth, RBAC, KYC, cooperatives, base schema.
-- **Matching & AI (Person 2)**: Worker eligibility, fair matching (skill + distance + rating + workload), basic AI request understanding via Ollama/Qwen, routing.
-- **Services & Booking (Person 3)**: Job lifecycle, notifications, demo payments, reviews, analytics.
 
 ### 3 Independent Apps in One Frontend
 Each role runs as its own standalone application on a dedicated port with its own branding and routes:
